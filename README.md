@@ -27,8 +27,8 @@ The Sticky Keys attack typically involves the following steps:
 > ![Copy & Rename](images/media/image2.png)
 4.  **Triggering the Attack:** The attacker reboots the system (or waits for it to be at the logon screen). At the logon screen, they press the Shift key five times.^9^
 
-> ![5 Shift Key Hits & Boom](image/media/image3.png)
+> ![5 Shift Key Hits & Boom](images/media/image3.png)
 
 5.  **Gaining a SYSTEM Shell:** Instead of the Sticky Keys prompt, a command prompt window appears with SYSTEM privileges.
 
-> ![Full Privilege Escalation](image/media/image4.png)
+> ![Full Privilege Escalation](images/media/image4.png)
