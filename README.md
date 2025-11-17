@@ -24,12 +24,11 @@ The Sticky Keys attack typically involves the following steps:
 
 3.  **Copying cmd.exe:** The attacker then copies cmd.exe (also located in C:\Windows\System32) and renames the copy to sethc.exe.^8^
 
-> ![Copy & Rename](images/media/image2.png){width="5.333333333333333in" height="5.333333333333333in"}
-
+> ![Copy & Rename](images/media/image2.png)
 4.  **Triggering the Attack:** The attacker reboots the system (or waits for it to be at the logon screen). At the logon screen, they press the Shift key five times.^9^
 
-> ![5 Shift Key Hits & Boom](image/media/image3.png){width="5.333333333333333in" height="5.333333333333333in"}
+> ![5 Shift Key Hits & Boom](image/media/image3.png)
 
 5.  **Gaining a SYSTEM Shell:** Instead of the Sticky Keys prompt, a command prompt window appears with SYSTEM privileges.
 
-> ![Full Privilege Escalation](image/media/image4.png){width="5.333333333333333in" height="5.333333333333333in"}
+> ![Full Privilege Escalation](image/media/image4.png)
