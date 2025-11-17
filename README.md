@@ -20,7 +20,7 @@ The Sticky Keys attack typically involves the following steps:
 
 2.  **Renaming sethc.exe:** The original sethc.exe file is located in C:\Windows\System32. ^7^The attacker renames it to something like sethc.bak to preserve it.
 
-> ![Hacker renaming sethc.exe](media/image1.png){width="5.333333333333333in" height="5.333333333333333in"}
+> ![Hacker renaming sethc.exe](images/media/image1.png){width="5.333333333333333in" height="5.333333333333333in"}
 
 3.  **Copying cmd.exe:** The attacker then copies cmd.exe (also located in C:\Windows\System32) and renames the copy to sethc.exe.^8^
 
