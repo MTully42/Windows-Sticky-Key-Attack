@@ -20,16 +20,16 @@ The Sticky Keys attack typically involves the following steps:
 
 2.  **Renaming sethc.exe:** The original sethc.exe file is located in C:\Windows\System32. ^7^The attacker renames it to something like sethc.bak to preserve it.
 
-> ![](media/image1.png){width="5.333333333333333in" height="5.333333333333333in"}
+> ![Hacker renaming sethc.exe](media/image1.png){width="5.333333333333333in" height="5.333333333333333in"}
 
 3.  **Copying cmd.exe:** The attacker then copies cmd.exe (also located in C:\Windows\System32) and renames the copy to sethc.exe.^8^
 
-> ![](media/image2.png){width="5.333333333333333in" height="5.333333333333333in"}
+> ![Copy & Rename](media/image2.png){width="5.333333333333333in" height="5.333333333333333in"}
 
 4.  **Triggering the Attack:** The attacker reboots the system (or waits for it to be at the logon screen). At the logon screen, they press the Shift key five times.^9^
 
-> ![](media/image3.png){width="5.333333333333333in" height="5.333333333333333in"}
+> ![5 Shift Key Hits & Boom](media/image3.png){width="5.333333333333333in" height="5.333333333333333in"}
 
 5.  **Gaining a SYSTEM Shell:** Instead of the Sticky Keys prompt, a command prompt window appears with SYSTEM privileges.
 
-> ![](media/image4.png){width="5.333333333333333in" height="5.333333333333333in"}
+> ![Full Privilege Escalation](media/image4.png){width="5.333333333333333in" height="5.333333333333333in"}
